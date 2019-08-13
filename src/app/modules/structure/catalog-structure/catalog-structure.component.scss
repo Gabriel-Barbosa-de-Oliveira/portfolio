@@ -1,0 +1,45 @@
+.portfolio-structure {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas:
+    "nav  main";
+  grid-template-rows: 1fr;
+  grid-template-columns: 25% auto;
+}
+
+.portfolio-structure > header {
+  display: none;
+}
+
+.portfolio-structure > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+.portfolio-structure > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+.portfolio-structure > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+
+@media screen and (max-width: 40em) {
+  .portfolio-structure > header {
+    display: inherit;
+  }
+
+  .portfolio-structure {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas:
+      "head head"
+      "nav  main";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+  }
+}
