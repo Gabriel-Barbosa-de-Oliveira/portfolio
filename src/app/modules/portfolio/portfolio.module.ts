@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { RouterModule } from '@angular/router';
+import { ContactComponent } from './contact/contact.component';
 
 
 const COMPONENTS = [
@@ -10,7 +11,7 @@ const COMPONENTS = [
   SidenavComponent
 ]
 @NgModule({
-  declarations: [...COMPONENTS],
+  declarations: [...COMPONENTS, ContactComponent],
   imports: [
     CommonModule,
     RouterModule

@@ -43,14 +43,15 @@
   text-transform: uppercase;
 }
 
-.navlist > ul > li {
+.navlist > ul > li, a {
   padding-bottom: 10px;
   cursor: pointer;
   font-family: "Roboto" "Medium";
   color: rgba($color: #ffffff, $alpha: 0.7);
+  text-decoration: none;
 }
 
-.navlist > ul > li:hover {
+.navlist > ul > li:hover, a:hover {
   color: rgba($color: #ffffff, $alpha: 1);
 }
 

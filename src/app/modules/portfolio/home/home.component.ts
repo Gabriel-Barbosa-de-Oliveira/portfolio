@@ -1,9 +1,20 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import {trigger, state, animate, style, transition} from '@angular/animations';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  animations: [
+    trigger('simpleFadeAnimation', [
+      state('in', style({opacity: 1})),
+      transition(':enter', [
+        style({opacity: 0}),
+        animate(1000)
+      ])
+    ])
+  ]
 })
 export class HomeComponent implements OnInit {
   showFirstText: boolean = true;
@@ -12,7 +23,7 @@ export class HomeComponent implements OnInit {
   lineBreakFirstText: string = 'none';
   lineBreakSecondText: string = 'none';
 
-  constructor() { }
+  constructor(private _router: Router) { }
 
   ngOnInit() {
     this.breakFirstText();
@@ -22,13 +33,13 @@ export class HomeComponent implements OnInit {
   breakFirstText() {
     setTimeout(() => {
       this.lineBreakFirstText = 'line-through';
-    }, 2500);
+    }, 1500);
   }
 
   revealSecondText() {
     setTimeout(() => {
       this.showSecondText = true;
-    }, 2500);
+    }, 1500);
     this.breakSecondText();
   }
 
@@ -36,10 +47,12 @@ export class HomeComponent implements OnInit {
     setTimeout(() => {
       this.lineBreakSecondText = 'line-through';
       this.showThirdText = true;
-    }, 6600);
+    }, 3000);
   }
 
-
+  redirectToContact() {
+    this._router.navigate(['/contact']);
+  }
 
 
 }
