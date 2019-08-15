@@ -1,3 +1,20 @@
-<p>
-  home works!
-</p>
+<section class="home-container">
+  <h1>Hello, I'm Gabriel,</h1>
+  <span class="intro">and I can solve
+    <span *ngIf="showFirstText" [style.text-decoration]="lineBreakFirstText">all of your</span>
+    <span *ngIf="showSecondText" [style.text-decoration]="lineBreakSecondText">some of your </span>
+    problems <span *ngIf="showThirdText">haha :D</span>
+  </span>
+  <section class="buttons-container">
+    <div class="container">
+      <div class="button-wrapper">
+        <button class="ninja-button">Portfolio</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="button-wrapper">
+        <button class="ninja-button">Contact Me</button>
+      </div>
+    </div>
+  </section>
+</section>

@@ -14,7 +14,7 @@ import { StructureModule } from './modules/structure/structure.module';
     BrowserModule,
     StructureModule,
     PortfolioModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
