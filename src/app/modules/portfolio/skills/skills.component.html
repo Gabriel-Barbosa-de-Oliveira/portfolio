@@ -1,0 +1,21 @@
+<section class="skills-container">
+  <h1>Skills</h1>
+  <p>
+    In this section bellow you can see some of my skills
+  </p>
+  <ng-container *ngFor="let item of items;">
+
+    <div class="skill-section">
+      <span>{{item.title}}</span>
+      <hr>
+      <div class="images-section">
+        <ng-container *ngFor="let image of item.images">
+          <div class="tech-section">
+            <img src="{{image.src}}" />
+            <p>{{image.subtitle}}</p>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+</section>

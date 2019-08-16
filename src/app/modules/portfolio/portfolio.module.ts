@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { RouterModule } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 const COMPONENTS = [
@@ -11,7 +12,7 @@ const COMPONENTS = [
   SidenavComponent
 ]
 @NgModule({
-  declarations: [...COMPONENTS, ContactComponent],
+  declarations: [...COMPONENTS, ContactComponent, SkillsComponent],
   imports: [
     CommonModule,
     RouterModule
