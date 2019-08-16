@@ -18,6 +18,10 @@ const routes: Routes = [
     component: SkillsComponent
   },
   {
+    path: "my-work",
+    loadChildren: './modules/my-work/my-work.module#MyWorkModule'
+  },
+  {
     path: '',
     component: HomeComponent
   },

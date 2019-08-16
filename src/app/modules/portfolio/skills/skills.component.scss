@@ -42,7 +42,14 @@ h1 {
   justify-items: center;
   align-items: center;
   grid-row-gap: 10px;
-  p{
-      text-align: center;
+  p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .images-section {
+    grid-template-columns: 1fr;
+    grid-row-gap: 24px;
   }
 }
