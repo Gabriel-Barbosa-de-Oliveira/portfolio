@@ -1,28 +1,26 @@
 <section class="my-work-container">
-  <h1>PORTFOLIO</h1>
+  <h1>Portfolio</h1>
   <p>
-    See some of my works below. <span class="mobile-text"><b>Click on card to see more details.</b> </span>
+    See some of my works below. <span><b>More Details about each project will be released soon</b> </span>
   </p>
 
   <section class="cards-container">
-    <div class="card">
-      &nbsp;
-    </div>
-    <div class="card">
-      &nbsp;
-    </div>
-    <div class="card">
-      &nbsp;
-    </div>
-    <div class="card">
-      &nbsp;
-    </div>
-    <div class="card">
-      &nbsp;
-    </div>
-    <div class="card">
-      &nbsp;
-    </div>
+    <ng-container *ngFor="let project of projects">
+
+      <div class="card">
+        <div class="content-container">
+          <img src="{{project.image}}" alt="{{project.title}}" />
+          <h5>{{project.title}}</h5>
+          <div class="chips-container">
+            <ng-container *ngFor="let tech of project.technologies">
+              <div class="md-chip">
+                {{tech}}
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </ng-container>
   </section>
 
 </section>

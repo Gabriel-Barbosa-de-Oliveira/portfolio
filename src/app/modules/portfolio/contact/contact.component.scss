@@ -12,13 +12,18 @@ h1 {
   font-weight: 400;
 }
 
-.contact-section{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 100px auto;
+.contact-section {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 100px auto;
 }
 
-i{
-    margin-right: 16px;
+i {
+  margin-right: 16px;
 }
 
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

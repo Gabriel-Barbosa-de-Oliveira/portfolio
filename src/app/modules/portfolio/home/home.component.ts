@@ -54,5 +54,9 @@ export class HomeComponent implements OnInit {
     this._router.navigate(['/contact']);
   }
 
+  redirectToPortfolio(){
+    this._router.navigate(['/my-work']);
+
+  }
 
 }

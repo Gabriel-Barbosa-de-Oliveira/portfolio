@@ -1,10 +1,10 @@
 $muted-grey: #999;
-$black: #111111;
+$black: #333;
 $white: #fff;
 
-$base-shadow: rgba(0, 0, 0, 0.12);
-$black-shadow-from: rgba(255, 255, 255, 0.42);
-$black-shadow-to: rgba(255, 255, 255, 0.2);
+$base-shadow: rgba(160,82,45, 0.12);
+$black-shadow-from: rgba(160,82,45, 0.42);
+$black-shadow-to: rgba(160,82,45, 0.2);
 $purple-box-shadow: 0 14px 26px -12px $black-shadow-from, 0 4px 23px 0px $base-shadow, 0 8px 10px -5px $black-shadow-to;
 
 .home-container {
@@ -76,7 +76,6 @@ h1 {
 
 @media screen and (max-width: 40em) {
   .home-container {
-    height: calc(100vh - 110px);
     margin: 30px;
     display: grid;
     display: -ms-grid;

@@ -1,6 +1,10 @@
 <app-catalog-structure>
   <section class="header">
-    <p>Header</p>
+    <label class="main-nav-list-item" :for="cartmenu">
+      <a class="cart">
+        <i class="fas fa-bars"></i>
+      </a>
+    </label>
   </section>
   <section class="sidenav">
     <app-sidenav></app-sidenav>
@@ -8,5 +12,14 @@
   <section class="main">
     <router-outlet></router-outlet>
   </section>
+
+  <div>
+    <input type="checkbox" id="cartmenu" class="hidden" />
+    <label class="label-menu-background" :for="mainmenu"></label>
+    <div class="main-nav-cart-list">
+      <app-sidenav></app-sidenav>
+    </div>
+    <label class="label-menu-background cart" :for="cartmenu" id="cart"></label>
+  </div>
 
 </app-catalog-structure>
