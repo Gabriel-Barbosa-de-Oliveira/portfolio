@@ -19,7 +19,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }
+  providers: [
   ],
   bootstrap: [AppComponent]
 })
