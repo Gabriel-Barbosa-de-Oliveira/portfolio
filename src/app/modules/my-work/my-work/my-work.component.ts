@@ -10,7 +10,7 @@ export class MyWorkComponent implements OnInit {
   projects: Array<any> = [
     {
       title: "GoCart",
-      image: "../../../../assets/gc-consumidor/consumer.png",
+      image: "./assets/gc-consumidor/consumer.png",
       technologies: [
         "Angular 7",
         "Socket.io",
@@ -22,7 +22,7 @@ export class MyWorkComponent implements OnInit {
     },
     {
       title: "GoCart - Lojista",
-      image: "../../../../assets/lojista/lojista.png",
+      image: "./assets/lojista/lojista.png",
       technologies: [
         "Angular 7",
         "Socket.io",
@@ -34,7 +34,7 @@ export class MyWorkComponent implements OnInit {
     },
     {
       title: "GoCart - Catalogo",
-      image: "../../../../assets/catalog/catalog.png",
+      image: "./assets/catalog/catalog.png",
       technologies: [
         "Angular 7",
         "Swagger",
@@ -44,7 +44,7 @@ export class MyWorkComponent implements OnInit {
     },
     {
       title: "Jaco Do Gesso",
-      image: "../../../../assets/jaco/jaco.png",
+      image: "./assets/jaco/jaco.png",
       technologies: [
         ".NET 4.0",
         "Html5",
@@ -56,7 +56,7 @@ export class MyWorkComponent implements OnInit {
     },
     {
       title: "Mwa",
-      image: "../../../../assets/mwa/mwa.png",
+      image: "./assets/mwa/mwa.png",
       technologies: [
         ".NET 4.0",
         "Html5",
@@ -68,7 +68,7 @@ export class MyWorkComponent implements OnInit {
     },
     {
       title: "Blackstone",
-      image: "../../../../assets/bs/bs.png",
+      image: "./assets/bs/bs.png",
       technologies: [
         "Html5",
         "Css3",
