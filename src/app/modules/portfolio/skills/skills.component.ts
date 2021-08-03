@@ -13,11 +13,11 @@ export class SkillsComponent implements OnInit {
         title: "HTML",
         images: [
           {
-            src: "../../../../assets/html5.png",
+            src: "./assets/html5.png",
             subtitle: "HTML5"
           },
           {
-            src: "../../../../assets/react.png",
+            src: "./assets/react.png",
             subtitle: "JSX"
           }
         ]
@@ -26,23 +26,23 @@ export class SkillsComponent implements OnInit {
         title: "CSS",
         images: [
           {
-            src: "../../../../assets/angular.png",
+            src: "./assets/angular.png",
             subtitle: "ANGULAR MATERIAL"
           },
           {
-            src: "../../../../assets/bootstrap.png",
+            src: "./assets/bootstrap.png",
             subtitle: "BOOTSTRAP"
           },
           {
-            src: "../../../../assets/css3.png",
+            src: "./assets/css3.png",
             subtitle: "CSS3"
           },
           {
-            src: "../../../../assets/materialize.png",
+            src: "./assets/materialize.png",
             subtitle: "MATERIALIZE"
           },
           {
-            src: "../../../../assets/sass.png",
+            src: "./assets/sass.png",
             subtitle: "SASS"
           }
         ]
@@ -51,27 +51,27 @@ export class SkillsComponent implements OnInit {
         title: "JAVASCRIPT",
         images: [
           {
-            src: "../../../../assets/angular.png",
+            src: "./assets/angular.png",
             subtitle: "ANGULAR 2+"
           },
           {
-            src: "../../../../assets/ionic.png",
+            src: "./assets/ionic.png",
             subtitle: "IONIC"
           },
           {
-            src: "../../../../assets/javascript.png",
+            src: "./assets/javascript.png",
             subtitle: "JAVASCRIPT"
           },
           {
-            src: "../../../../assets/jquery.png",
+            src: "./assets/jquery.png",
             subtitle: "JQUERY"
           },
           {
-            src: "../../../../assets/nodejs.png",
+            src: "./assets/nodejs.png",
             subtitle: "NODE JS"
           },
           {
-            src: "../../../../assets/react.png",
+            src: "./assets/react.png",
             subtitle: "REACT"
           }
         ]
@@ -80,19 +80,19 @@ export class SkillsComponent implements OnInit {
         title: "BACK-END",
         images: [
           {
-            src: "../../../../assets/csharp.png",
+            src: "./assets/csharp.png",
             subtitle: "C#"
           },
           {
-            src: "../../../../assets/mongodb.png",
+            src: "./assets/mongodb.png",
             subtitle: "MONGO DB"
           },
           {
-            src: "../../../../assets/mysql.png",
+            src: "./assets/mysql.png",
             subtitle: "MYSQL"
           },
           {
-            src: "../../../../assets/nodejs.png",
+            src: "./assets/nodejs.png",
             subtitle: "NODE JS"
           }
         ]
@@ -101,15 +101,15 @@ export class SkillsComponent implements OnInit {
         title: "BUILD TOOLS",
         images: [
           {
-            src: "../../../../assets/gulp.png",
+            src: "./assets/gulp.png",
             subtitle: "GULP"
           },
           {
-            src: "../../../../assets/npm.png",
+            src: "./assets/npm.png",
             subtitle: "NPM SCRIPTS"
           },
           {
-            src: "../../../../assets/webpack.png",
+            src: "./assets/webpack.png",
             subtitle: "WEBPACK"
           }
         ]
@@ -118,23 +118,23 @@ export class SkillsComponent implements OnInit {
         title: "OTHER",
         images: [
           {
-            src: "../../../../assets/devops.png",
+            src: "./assets/devops.png",
             subtitle: "AZURE DEVOPS"
           },
           {
-            src: "../../../../assets/bitbucket.png",
+            src: "./assets/bitbucket.png",
             subtitle: "BITBUCKET"
           },
           {
-            src: "../../../../assets/github.png",
+            src: "./assets/github.png",
             subtitle: "GITHUB"
           },
           {
-            src: "../../../../assets/photoshop.png",
+            src: "./assets/photoshop.png",
             subtitle: "PHOTOSHOP"
           },
           {
-            src: "../../../../assets/premiere.png",
+            src: "./assets/premiere.png",
             subtitle: "PREMIERE"
           }
         ]
